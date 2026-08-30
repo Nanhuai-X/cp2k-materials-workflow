@@ -1,0 +1,6 @@
+interface:
+  display_name: "CP2K Materials Workflow"
+  short_description: "Version-aware CP2K materials workflows"
+  default_prompt: "Use $cp2k-materials-workflow to audit a structure and CP2K environment, select the exact versioned template, validate inputs, plan convergence, and preserve reproducible provenance."
+policy:
+  allow_implicit_invocation: true
